@@ -23,14 +23,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                 {
                     if(Notification.permission == "granted")
                     {
-                        var notification = new Notification("Notification Title", {"body":"Nada novo por enquanto!", "icon":"http://alapakisoft.com/web-push/logo7.png"});
+                        var notification = new Notification("Olá..", {"body":"Nada novo por enquanto!", "icon":"http://alapakisoft.com/web-push/logo7.png"});
                     }
                     else
                     {
                         Notification.requestPermission(function (permission) {
                             if (permission === "granted") 
                             {
-                                var notification = new Notification("Notification Title", {"body":"Pronto, sempre atualizado!", "icon":"http://alapakisoft.com/web-push/logo7.png"});
+                                var notification = new Notification("Olá..", {"body":"Pronto, sempre atualizado!", "icon":"http://alapakisoft.com/web-push/logo7.png"});
                             }
                         });
                     }
