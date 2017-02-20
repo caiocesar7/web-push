@@ -52,7 +52,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         <p>Quer ficar atualizado?</p>
             
             
-        <a onclick="trigger_notification();">Clique aqui!</a>
+        <a href="#" onclick="trigger_notification();">Clique aqui!</a>
     </div>
 </div>
 <div class="footer-w3l">
